@@ -1,4 +1,4 @@
-import { useQuery } from "@tanstack/react-query";
+0import { useQuery } from "@tanstack/react-query";
 import { getPost, getPosts, getUsers } from "./api";
 
 

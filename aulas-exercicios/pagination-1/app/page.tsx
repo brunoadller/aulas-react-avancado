@@ -1,4 +1,4 @@
-
+"use client"
 
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
         <button className="bg-white rounded-lg text-black font-bold p-2">Próxima</button>
       </div>
     </div>
-    <div className="">
+    <div className="border-2 border-white">
 
     </div>
    </main>
