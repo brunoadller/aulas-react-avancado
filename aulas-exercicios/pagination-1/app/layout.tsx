@@ -18,9 +18,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-     <Providers>
-      <body className="bg-slate-900 text-white mx-auto container">{children}</body>
-      </Providers>
+     
+      <body className="bg-slate-900 text-white mx-auto container">
+        <Providers>
+          {children}
+        </Providers>
+      </body>
+     
     </html>
   );
 }

@@ -1,8 +1,11 @@
 "use client"
 
+
 const Home = () => {
+  
+  
   return (
-   <main className="my-4">
+   <main className="my-4 flex  flex-col gap-3">
     <div className="w-full border-2 border-white p-4">
       <p>Págian Inicial: </p>
       <p>Página Final: </p>
@@ -11,8 +14,8 @@ const Home = () => {
         <button className="bg-white rounded-lg text-black font-bold p-2">Próxima</button>
       </div>
     </div>
-    <div className="border-2 border-white">
-
+    <div className="border-2 border-white w-full">
+     
     </div>
    </main>
   )
